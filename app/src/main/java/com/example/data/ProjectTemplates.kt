@@ -42,6 +42,13 @@ jobs:
       - name: Configurar Android SDK
         uses: android-actions/setup-android@v3
 
+      - name: Instalar SDK 35 y aceptar licencias
+        run: |
+          SDK_DIR="${'$'}{ANDROID_HOME:-${'$'}ANDROID_SDK_ROOT}"
+          echo "sdk.dir=${'$'}SDK_DIR" > local.properties
+          yes | sdkmanager --licenses > /dev/null || true
+          sdkmanager "platform-tools" "platforms;android-35" "build-tools;35.0.0"
+
       - name: Configurar Gradle 8.11.1
         uses: gradle/actions/setup-gradle@v4
         with:
