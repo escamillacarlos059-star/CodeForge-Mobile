@@ -1,0 +1,18 @@
+<resources>
+    <string name="app_name">CodeForge</string>
+    <string name="nav_editor">Editor</string>
+    <string name="nav_preview">Preview</string>
+    <string name="nav_build">GitHub CI</string>
+    <string name="nav_projects">Proyectos</string>
+    <string name="cd_explorer">Explorador de archivos</string>
+    <string name="cd_run_preview">Ejecutar vista previa</string>
+    <string name="cd_push_build">Subir y compilar en GitHub</string>
+    <string name="cd_close_tab">Cerrar pestaña</string>
+    <string name="cd_new_file">Nuevo archivo</string>
+    <string name="cd_new_folder">Nueva carpeta</string>
+    <string name="cd_console_toggle">Alternar consola</string>
+    <string name="cd_clear_console">Limpiar consola</string>
+    <string name="cd_install_apk">Instalar APK en teléfono</string>
+    <string name="cd_download_artifact">Descargar artefacto</string>
+    <string name="cd_refresh_runs">Actualizar compilaciones</string>
+</resources>

@@ -1,0 +1,6 @@
+{
+  "name": "CodeForge",
+  "description": "IDE móvil multi-archivo con vista previa Web en vivo, conexión real con GitHub API, compilación APK/AAB en GitHub Actions e instalador nativo.",
+  "requestFramePermissions": [],
+  "majorCapabilities": ["MAJOR_CAPABILITY_SERVER_SIDE_GEMINI_API"]
+}
